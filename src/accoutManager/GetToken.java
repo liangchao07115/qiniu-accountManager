@@ -33,10 +33,10 @@ public class GetToken {
 		
 		System.out.println(re.isSuccessful());	
 		if(re.isSuccessful() == true){
-			System.out.println(re.code());
+			System.out.println(re.body().string());
 			
 		}else{
-			System.out.println(re.code());
+			System.out.println(re.body().string());
 		}		
 	}	 	
 }

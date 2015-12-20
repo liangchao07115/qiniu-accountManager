@@ -18,7 +18,7 @@ public class freshToken {
 		
 		OkHttpClient client = new OkHttpClient();
 
-		String refresh_token = "****";
+		String refresh_token = "**";
 		
 		String refresh_tokenEncoded = URLEncoder.encode(refresh_token);
 		

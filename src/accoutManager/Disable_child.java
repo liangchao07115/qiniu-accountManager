@@ -18,10 +18,10 @@ public class Disable_child {
 	public void disable( ) throws IOException{		
 		OkHttpClient client = new OkHttpClient();		
 		String url = "https://acc.qbox.me/user/disable_child";
-		String access_token = "uaFRcD1RtcOLNe-uQivs2MPlYUrwEHbwAoVMN-o8Iigzt9Egm0GY1NteDSkQ_jDUfs9wx6FkSCm15IjMzOewbWUz6lkOMHP-ZzpwUi9hdvi6pBK_k_qAhYvDz9GXAH04rzImg_k_XLNa1JRCk3cawNdLPbnyzaXtzlhMJQ7YE1y6a2PlQAusA17mX0QcXmpfwlKDjeOvQT_FfVOCBwHfoQ==";
+		String access_token = "**";
 		RequestBody formBody = new FormEncodingBuilder()
-			    .add("uid", "**")
-			    .add("reason","**")
+			    .add("uid", "su@nepliang.com")
+			    .add("reason","this is mistake")
 			    .build();
 		
 		Request request = new Request.Builder()	

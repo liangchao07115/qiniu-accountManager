@@ -14,7 +14,7 @@ public class GetUserInfo {
 	//没有测试通过		
 	@Test
 	public void getInfo() throws IOException{
-		String access_token = "uaFRcD1RtcOLNe-uQivs2IWkBlfaztHhSQNj-bJELY_WMfsTe9HqCxriVWOB0U16M3ZQy5wNcWmXucO5xaP7isGS4dP6vIqzxCUVEeXcE7qjNhBY40yIdGasA_y4OvIGkYzsM8cJDk6rlrQdmtI46VOBBPrVdxqeysZzxESVR_Jyk1bES7WIKbQHQkIZ2130d_LwH_AqvZdM0xc9ff7oZA==";
+		String access_token = "**";
 		OkHttpClient client = new OkHttpClient();		
 		String url = "https://acc.qbox.me/user/info";
 		
